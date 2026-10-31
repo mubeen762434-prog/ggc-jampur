@@ -1,7 +1,7 @@
 /* ============================================================
    DATA & HELPERS  -  yahan apna asli data likhein
    ============================================================ */
-const COLLEGE = "Your College Name";
+const COLLEGE = "GOVT GRADUATE COLLEGE JAMPUR";
 const $  = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
 const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
